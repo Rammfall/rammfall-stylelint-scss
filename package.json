@@ -1,0 +1,35 @@
+{
+  "name": "rammfall-stylelint-scss",
+  "version": "0.0.1",
+  "description": "Rammfall stylelint config",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.14.2",
+    "stylint": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rammfall/rammfall-stylelint-scss.git"
+  },
+  "keywords": [
+    "stylelint",
+    "config",
+    "prettier",
+    "scss",
+    "postcss"
+  ],
+  "author": "rammfall (Bohdan Onatskyi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rammfall/rammfall-stylelint-scss/issues"
+  },
+  "homepage": "https://github.com/Rammfall/rammfall-stylelint-scss#readme"
+}
