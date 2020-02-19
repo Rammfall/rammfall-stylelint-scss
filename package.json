@@ -1,6 +1,6 @@
 {
   "name": "rammfall-stylelint-scss",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Rammfall stylelint config",
   "main": "index.js",
   "dependencies": {

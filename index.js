@@ -30,6 +30,7 @@ module.exports = {
     "declaration-block-trailing-semicolon": "always",
     "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
+    "declaration-empty-line-before": "never",
     "declaration-property-value-blacklist": {
       "border": ["none"],
       "border-top": ["none"],
