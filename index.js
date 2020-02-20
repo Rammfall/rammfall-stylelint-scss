@@ -20,7 +20,15 @@ module.exports = {
     "block-opening-brace-space-before": "always",
     "color-hex-case": "lower",
     "color-hex-length": "short",
-    "color-named": "never",
+    "color-named": [
+      "never",
+      {
+        "ignore": [
+          "black",
+          "white"
+        ]
+      }
+    ],
     "color-no-invalid-hex": true,
     "declaration-bang-space-after": "never",
     "declaration-bang-space-before": "always",
