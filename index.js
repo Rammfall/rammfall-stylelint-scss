@@ -53,7 +53,7 @@ module.exports = {
     "indentation": 2,
     "length-zero-no-unit": true,
     "max-nesting-depth": [
-      1,
+      2,
       {
         "ignoreAtRules": [
           "each",
