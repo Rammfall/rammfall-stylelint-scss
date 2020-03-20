@@ -9,7 +9,6 @@ module.exports = {
     "stylelint-prettier"
   ],
   "rules": {
-    "prettier/prettier": true,
     "selector-class-pattern": "^(?:(?:o|c|u|t|s|is|has|_|js|qa)-)?[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$",
     "rule-empty-line-before": "never",
     "selector-pseudo-element-colon-notation": "single",
@@ -111,6 +110,8 @@ module.exports = {
     "selector-pseudo-element-no-unknown": true,
     "shorthand-property-no-redundant-values": true,
     "string-quotes": "single",
-    "value-no-vendor-prefix": true
+    "value-no-vendor-prefix": true,
+    "prettier/prettier": true,
+    "declaration-colon-newline-after": false
   }
 };
