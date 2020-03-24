@@ -21,13 +21,7 @@ module.exports = {
     "color-hex-case": "lower",
     "color-hex-length": "short",
     "color-named": [
-      "never",
-      {
-        "ignore": [
-          "black",
-          "white"
-        ]
-      }
+      "always-where-possible"
     ],
     "color-no-invalid-hex": true,
     "declaration-bang-space-after": "never",
@@ -112,6 +106,6 @@ module.exports = {
     "string-quotes": "single",
     "value-no-vendor-prefix": true,
     "prettier/prettier": true,
-    "declaration-colon-newline-after": false
+    "declaration-colon-newline-after": "always-multi-line"
   }
 };
