@@ -10,9 +10,11 @@ module.exports = {
   ],
   "rules": {
     "selector-class-pattern": "^(?:(?:o|c|u|t|s|is|has|_|js|qa)-)?[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$",
-    "rule-empty-line-before": "never",
+    "rule-empty-line-before": ["never-multi-line"],
     "selector-pseudo-element-colon-notation": "single",
-    "at-rule-empty-line-before": "never",
+    "at-rule-empty-line-before": ["always", {
+      "except": ["after-same-name", "inside-block"]
+    }],
     "at-rule-blacklist": ["debug"],
     "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
@@ -43,7 +45,6 @@ module.exports = {
     "function-comma-space-after": "always-single-line",
     "function-parentheses-space-inside": "never",
     "function-url-quotes": "always",
-    "indentation": 2,
     "length-zero-no-unit": true,
     "max-nesting-depth": [
       2,
@@ -105,7 +106,11 @@ module.exports = {
     "shorthand-property-no-redundant-values": true,
     "string-quotes": "single",
     "value-no-vendor-prefix": true,
-    "prettier/prettier": true,
-    "declaration-colon-newline-after": "always-multi-line"
+    "scss/dollar-variable-empty-line-after": ["always", {
+      "except": [
+        "before-dollar-variable"
+      ]
+    }],
+    "prettier/prettier": true
   }
 };
