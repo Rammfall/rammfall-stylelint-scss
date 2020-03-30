@@ -10,7 +10,9 @@ module.exports = {
   ],
   "rules": {
     "selector-class-pattern": "^(?:(?:o|c|u|t|s|is|has|_|js|qa)-)?[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$",
-    "rule-empty-line-before": ["never-multi-line"],
+    "rule-empty-line-before": ["always", {
+      "except": ["after-rule", "after-single-line-comment", "inside-block-and-after-rule", "inside-block", "first-nested"]
+    }],
     "selector-pseudo-element-colon-notation": "single",
     "at-rule-empty-line-before": ["always", {
       "except": ["after-same-name", "inside-block"]
@@ -111,6 +113,7 @@ module.exports = {
         "before-dollar-variable"
       ]
     }],
+    "no-descending-specificity": null,
     "prettier/prettier": true
   }
 };
