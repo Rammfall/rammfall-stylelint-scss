@@ -36,20 +36,22 @@ module.exports = {
     "declaration-block-trailing-semicolon": "always",
     "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
-    "declaration-empty-line-before": "never",
+    "declaration-empty-line-before": ["never", {
+      "ignore": ["after-declaration"]
+    }],
     "declaration-property-value-blacklist": {
-      "border": ["none"],
-      "border-top": ["none"],
-      "border-right": ["none"],
-      "border-bottom": ["none"],
-      "border-left": ["none"]
+      "border": ["0"],
+      "border-top": ["0"],
+      "border-right": ["0"],
+      "border-bottom": ["0"],
+      "border-left": ["0"]
     },
     "function-comma-space-after": "always-single-line",
-    "function-parentheses-space-inside": "never",
+    "function-parentheses-space-inside": "never-single-line",
     "function-url-quotes": "always",
     "length-zero-no-unit": true,
     "max-nesting-depth": [
-      2,
+      3,
       {
         "ignoreAtRules": [
           "each",
