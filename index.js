@@ -1,6 +1,7 @@
 module.exports = {
   "extends": [
     "stylelint-config-standard",
+    "stylelint-config-standard-scss",
     "stylelint-config-property-sort-order-smacss",
     "stylelint-config-prettier"
   ],
@@ -17,7 +18,7 @@ module.exports = {
     "at-rule-empty-line-before": ["always", {
       "except": ["after-same-name", "inside-block"]
     }],
-    "at-rule-blacklist": ["debug"],
+    "at-rule-disallowed-list": ["debug"],
     "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
     "block-no-empty": true,
@@ -39,7 +40,7 @@ module.exports = {
     "declaration-empty-line-before": ["never", {
       "ignore": ["after-declaration"]
     }],
-    "declaration-property-value-blacklist": {
+    "declaration-property-value-disallowed-list": {
       "border": ["0"],
       "border-top": ["0"],
       "border-right": ["0"],

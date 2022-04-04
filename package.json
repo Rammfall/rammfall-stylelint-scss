@@ -1,12 +1,13 @@
 {
   "name": "rammfall-stylelint-scss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rammfall stylelint config",
   "main": "index.js",
   "dependencies": {
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-property-sort-order-smacss": "^9.0.0",
     "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
     "stylelint-prettier": "^2.0.0",
     "stylelint-scss": "^4.2.0"
   },
@@ -14,7 +15,6 @@
     "prettier": "^2.0.5",
     "stylelint": "^14.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
