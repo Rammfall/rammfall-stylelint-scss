@@ -36,11 +36,11 @@
   },
   "homepage": "https://github.com/Rammfall/rammfall-stylelint-scss#readme",
   "engines": {
-    "node": "16.14.2",
-    "npm": "8.1.2"
+    "node": ">=16.14.2",
+    "npm": ">=8.1.2"
   },
   "volta": {
-    "node": "16.14.2",
-    "npm": "8.1.2"
+    "node": ">=16.14.2",
+    "npm": ">=8.1.2"
   }
 }
